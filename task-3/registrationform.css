@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  /* Styling for the registration form container */
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+    border: 2px solid maroon; /* Border around the form */
+    padding: 20px; /* Padding inside the border to add space */
+  }
+  
+  /* Styling for form elements (labels, inputs, textarea, select) */
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  select {
+    height: 120px;
+  }
+  
+  /* Styling for gender radio buttons */
+  input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  /* Styling for the submit button */
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: rgb(53, 13, 123);
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: rgb(53, 13, 123);
+  }
+  
+
+
